@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UPeUAsistenciaQR</string>
+    <string name="title_login">Sistema de Registro de Asistencia</string>
+    <string name="txt_user">Usuario:</string>
+    <string name="txt_password">Clave:</string>
+    <string name="btn_sing">Ingresar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_regasist">Registrar Asistencia</string>
+</resources>

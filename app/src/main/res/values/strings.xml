@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Proyecto01_Home</string>
+    <string name="title_login">Sistema de Registro de Asistencia</string>
+    <string name="txt_user">Usuario:</string>
+    <string name="txt_password">Clave:</string>
+    <string name="btn_sing">Ingresar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_regasist">Registrar Asistencia</string>
+    <string name="facebook_app_id">393228111088604</string>
+    <string name="fb_login_protocol_scheme">fb333482987023021</string>
+    v
+    <string name="title_activity_principal">fb</string>
+    <string name="title_activity_home_navition_draw">proyect_onepiece</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

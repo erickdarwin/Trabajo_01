@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rbtnEstado"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/rbtnEstado"
+        android:textColor="@color/colorPrimary"
+        android:text="nombre" />
+
+    <TextView
+        android:id="@+id/txtLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtNombre"
+        android:textColor="@color/colorPrimary"
+        android:gravity="left"
+        android:text="Lugar" />
+    <TextView
+        android:id="@+id/txtfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtNombre"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:text="Fecha" />
+    <TextView
+        android:id="@+id/txtHinicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtNombre"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        android:text="Hora" />
+
+
+    <RadioButton
+        android:id="@+id/rbtnEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+</RelativeLayout>
